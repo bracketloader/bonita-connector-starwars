@@ -1,0 +1,23 @@
+= Bonita connector Starwars
+
+This project contains the sources of the connector starwars, an example from the https://documentation.bonitasoft.com/bonita/latest/connector-archetype-tutorial[Bonita documentation].
+
+== About the connector
+
+This connector communicates with the https://swapi.dev/[Star Wars API]. It takes in input a Star Wars character name, and  returns details on this character.
+
+== Build the project
+
+At the root of the project, enter the following command: 
+
+[source, bash]
+----
+./mvnw clean package
+----
+
+The jar of the connector can be found in `target/connector-starwars-<VERSION>.jar`.
+
+== Release workflow
+
+When a release of this connector is created, a workflow deploy this release on the Github package of this repository. +
+This workflow has been created as an example for users (to complete the documentation tutorial), and is not meant to be triggered to much.
