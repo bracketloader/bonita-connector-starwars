@@ -6,7 +6,7 @@
     <artifactId>connector-starwars</artifactId>
     <version>1.2.1-SNAPSHOT</version>
     <name>Connector Starwars</name>
-    <description>Salut les filles</description>
+    <description>Here is a fun example of connector for all Star Wars fans</description>
     <packaging>jar</packaging>
 
     <properties>
